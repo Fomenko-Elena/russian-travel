@@ -1,0 +1,5 @@
+.header__languages {
+    display: flex;
+    flex-direction: row;
+    column-gap: 18px;
+}
