@@ -4,6 +4,7 @@
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
+    text-underline-offset: 4px;
     color: #FFFFFF;
     transition: opacity 0.1s linear;
 }
