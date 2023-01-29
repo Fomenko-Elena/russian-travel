@@ -7,12 +7,14 @@
 
 @media screen and (max-width: 1023px) {
     .places {
+        row-gap: 72px;
         margin: 88px calc(24px  + (100vw - 768px) / (1024 - 768) * (48 - 24)) 0;
     }
 }
 
 @media screen and (max-width: 767px) {
     .places {
+        row-gap: 50px;
         margin: 64px max(calc(16px  + (100vw - 320px) / (768 - 320) * (24 - 16)), 16px) 0;
     }
 }

@@ -19,7 +19,7 @@
     .photo-grid {
         grid-template-columns: repeat(2, auto);
         grid-gap: 16px;
-        margin: 92px calc(24px  + (100vw - 768px) / (1024 - 768) * (48 - 24)) 0;
+        margin: 88px calc(24px  + (100vw - 768px) / (1024 - 768) * (48 - 24)) 0;
     }
 }
 
@@ -27,7 +27,7 @@
     .photo-grid {
         grid-template-columns: auto;
         grid-gap: 12px;
-        margin: 92px max(calc(16px  + (100vw - 320px) / (768 - 320) * (24 - 16)), 16px) 0;
+        margin: 64px 16px 0;
     }
 }
 
