@@ -1,4 +1,22 @@
 .cover {
     position: relative;
-    margin: 92px 10px 0;
+    margin: 92px 48px 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        margin: 92px calc(max((100vw - 1024px) / (1280 - 1024) * 48, 0px)) 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        margin-top:66px;
+    }
 }
