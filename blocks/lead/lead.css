@@ -1,5 +1,5 @@
 .lead {
-    margin: 56px calc(min(max(48px + (100vw - 1024px) / 256 * 100, 0px), 148px)) 0;
+    margin: 56px min(max(48px + (100vw - 1024px) / 256 * 100, 0px), 148px) 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,6 +7,6 @@
 
 @media screen and (max-width: 1023px) {
     .lead {
-        margin: 48px calc(max((100vw - 768px) / 256 * 48, 0px)) 0;
+        margin: 48px max((100vw - 768px) / 256 * 48, 0px) 0;
     }
 }

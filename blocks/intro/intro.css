@@ -1,10 +1,10 @@
 .intro {
-    margin: 92px calc(min(max(48px + (100vw - 1024px) / 256 * 100, 0px), 148px)) 0;
+    margin: 92px min(max(48px + (100vw - 1024px) / 256 * 100, 0px), 148px) 0;
 }
 
 @media screen and (max-width: 1023px) {
     .intro {
-        margin: 88px calc(max((100vw - 768px) / 256 * 48, 24px)) 0;
+        margin: 88px max((100vw - 768px) / 256 * 48, 24px) 0;
     }
 }
 
