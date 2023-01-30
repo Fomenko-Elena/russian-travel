@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 80px;
-    margin: 92px calc(min(max(48px + (100vw - 1024px) / 256 * 100, 0px), 148px)) 0;
+    margin: 92px min(max(48px + (100vw - 1024px) / 256 * 100, 0px), 148px) 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -15,6 +15,6 @@
 @media screen and (max-width: 767px) {
     .places {
         row-gap: 50px;
-        margin: 64px max(calc(16px  + (100vw - 320px) / (768 - 320) * (24 - 16)), 16px) 0;
+        margin: 64px max(16px  + (100vw - 320px) / (768 - 320) * (24 - 16), 16px) 0;
     }
 }

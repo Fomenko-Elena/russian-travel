@@ -4,4 +4,4 @@
 
 В этой работе использованы способ построения сеток с помощью технологии Grid Layout, разработка интерфейса для разных устройств, использование медиазапросов
 
-Ссылка на GitHib Pages: [https://fomenko-elena.github.io/russian-travel/index.html](https://fomenko-elena.github.io/russian-travel/index.html)
+Ссылка на GitHub Pages: [https://fomenko-elena.github.io/russian-travel/index.html](https://fomenko-elena.github.io/russian-travel/index.html)
