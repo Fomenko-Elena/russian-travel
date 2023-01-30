@@ -5,7 +5,7 @@
     line-height: 18px;
     color: #FFFFFF;
     text-decoration: none;
-    transform: opacity 0.1s linear;
+    transition: opacity 0.1s linear;
 }
 
 .footer__link:hover {
